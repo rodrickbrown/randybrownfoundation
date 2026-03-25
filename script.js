@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
             button.addEventListener('click', function(e) {
                 if (this.getAttribute('href') === '#donate' || this.textContent === 'Donate Now') {
                     e.preventDefault();
-                    alert('Thank you for your interest in donating! Please contact us at info@randybrownfoundation.org for donation information.');
+                    window.open('https://donate.stripe.com/00wbJ15Nx6iqcdv9Ue6J200', '_blank');
                 }
             });
         }
